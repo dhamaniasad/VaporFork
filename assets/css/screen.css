@@ -147,6 +147,16 @@ section.share {
   text-align: left;
   text-transform: none;
 }
+.home {
+  text-align: center;
+  width: 100%;
+  font-size: 19px;
+  background: rgba(0, 0, 0, 0.04);
+  font-weight: 700;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
+}
 section.share {
   margin-top: 1em;
   border-top: 1px solid #ecf0f1;

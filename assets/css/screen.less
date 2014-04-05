@@ -12,6 +12,7 @@
 @linkColorHover: darken(@linkColor, 50%);
 @borderColor: #ecf0f1;
 @subtleColor: rgba(0,0,0,0.05);
+@homeSubtleColor: rgba(0,0,0,0.04);
 @postmetaColor: #95a5a6;
 @gistBackgroundColor: #fdfdfd;
 
@@ -171,17 +172,15 @@ section.author, section.share {
     text-transform: none;
 }
 
-section.home {
+.home {
     text-align: center;
     width: 100%;
-    background: @subtleColor;
-}
-
-section.home h4 {
-    text-align: center;
-    font-family: @headerFontFamily;
+    font-size: 19px;
+    background: @homeSubtleColor;
     font-weight: 700;
-    margin-bottom: 4px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-family: @secondaryFontFamily;
 }
 
 section.share {
